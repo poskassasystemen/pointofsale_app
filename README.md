@@ -1,1 +1,1 @@
-# retaildesk.com gui 
+# retaildesk.com app
