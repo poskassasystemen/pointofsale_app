@@ -1,8 +1,0 @@
-{
-  "darwin-x64-prod": {
-    "readme": "update",
-    "update": "https://github.com/poskassasystemen/retaildesk_app/releases/download/darwin-x64-prod-1.0.2/release.json",
-    "install": "https://github.com/poskassasystemen/retaildesk_app/releases/download/darwin-x64-prod-1.0.2/retaildesk_app-1.0.2.dmg",
-    "version": "1.0.2"
-  }
-}
