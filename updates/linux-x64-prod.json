@@ -1,0 +1,9 @@
+{
+  "linux-x64-prod": {
+    "readme": "update",
+    "update": "https://github.com/poskassasystemen/retaildesk_app/releases/download/linux-x64-prod-1.0.2/retaildesk_app-1.0.2.AppImage",
+    "install": "https://github.com/poskassasystemen/retaildesk_app/releases/download/linux-x64-prod-1.0.2/retaildesk_app-1.0.2.AppImage",
+    "version": "1.0.2",
+    "sha256": "88b8483c7280adf30ac792254edd33c21cab001d92b25d0b1fab79050d7426c9"
+  }
+}
