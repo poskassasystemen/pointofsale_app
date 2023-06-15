@@ -1,4 +1,4 @@
-# retaildesk.com app
+# Retaildesk.com app
 
 #To install on ubuntu
 
