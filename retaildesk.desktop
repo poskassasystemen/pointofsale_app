@@ -3,5 +3,5 @@ Version=1.0
 Type=Application
 Name=Retaildesk
 Comment=
-Exec=/opt/retaildesk_app.AppImage
+Exec=~/Applications/retaildesk_app.AppImage
 Icon=/usr/share/pixmaps/retaildesk_app.png
