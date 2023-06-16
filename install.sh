@@ -5,6 +5,7 @@
 gebruikersnaam="retaildesk"
 repo="retaildesk_app"
 sudo apt-get -y purge app_retaildesk
+desktop="$(xdg-user-dir DESKTOP)/retaildesk.desktop"
 
 mkdir -p ~/Applications
 
@@ -21,7 +22,7 @@ chmod +x ~/Applications/retaildesk_app.AppImage
 
 
 
-wget -O ~/Desktop/retaildesk.desktop https://raw.githubusercontent.com/retaildesk/retaildesk_app/master/retaildesk.desktop
+wget -O $desktop https://raw.githubusercontent.com/retaildesk/retaildesk_app/master/retaildesk.desktop
 sudo wget -O /usr/share/pixmaps/retaildesk_app.png https://github.com/retaildesk/retaildesk_app/raw/master/icons/Icon.png
 
-chmod +x ~/Desktop/retaildesk.desktop
+chmod +x $desktop
