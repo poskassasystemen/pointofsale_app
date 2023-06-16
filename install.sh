@@ -7,16 +7,16 @@ repo="retaildesk_app"
 sudo apt-get -y purge app_retaildesk
 desktop="$(xdg-user-dir DESKTOP)/retaildesk.desktop"
 
-mkdir -p ~/Applications
+mkdir -p $HOME/Applications
 
 release_tag=$(wget -qO- "https://api.github.com/repos/$gebruikersnaam/$repo/releases/latest" | grep -Po '"tag_name": "\K.*?(?=")')
 
 
 download_url=$(wget -qO- "https://api.github.com/repos/$gebruikersnaam/$repo/releases/tags/$release_tag" | grep "browser_download_url.*AppImage" | cut -d : -f 2,3 | tr -d "\"")
-rm -f ~/Applications/retaildesk_app.AppImage
-wget -O ~/Applications/retaildesk_app.AppImage $download_url
+rm -f $HOME/Applications/retaildesk_app.AppImage
+wget -O $HOME/Applications/retaildesk_app.AppImage $download_url
 
-chmod +x ~/Applications/retaildesk_app.AppImage
+chmod +x $HOME/Applications/retaildesk_app.AppImage
 
 
 
